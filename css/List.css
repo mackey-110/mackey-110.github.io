@@ -1,0 +1,27 @@
+/* List 클래스의 스타일 설정 */
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* List 클래스의 하위 자식 input 요소 스타일 설정 */
+.List input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 15px 0px;
+}
+
+/* List 클래스의 하위 자식 input:focus 요소 스타일 설정 */
+.List input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(37, 147, 255);
+}
+
+/* List 클래스의 하위 자식 todos_wrapper 요소 스타일 설정 */
+.List .todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

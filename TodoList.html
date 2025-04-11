@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/App.css" />
+    <link rel="stylesheet" href="css/Editor.css" />
+    <link rel="stylesheet" href="css/Header.css" />
+    <link rel="stylesheet" href="css/List.css" />
+    <link rel="stylesheet" href="css/TodoItem.css" />
+  </head>
+  <body>
+    <div class="App">
+      <div class="Header">
+        <h3>오늘의 Plan</h3>
+        <h1>2025-3-20</h1>
+      </div>
+      <form>
+        <div class="Editor">
+          <input type="text" placeholder="새로운 todo 입력" />
+          <button type="submit">추가</button>
+        </div>
+      </form>
+
+      <div class="List">
+        <h4>Todo List</h4>
+        <input placeholder="검색어를 입력하세요" />
+        <div class="todos_wrapper">
+          <div class="TodoItem">
+            <input type="checkbox" />
+            <div class="content">할일이나 하자1</div>
+            <div class="date">2025-3-20</div>
+            <button onclick="alert('삭제 버튼 클릭됨')">삭제</button>
+          </div>
+          <div class="TodoItem">
+            <input type="checkbox" />
+            <div class="content">할일이나 하자2</div>
+            <div class="date">2025-3-20</div>
+            <button onclick="alert('삭제 버튼 클릭됨')">삭제</button>
+          </div>
+          <div class="TodoItem">
+            <input type="checkbox" />
+            <div class="content">할일이나 하자3</div>
+            <div class="date">2025-3-20</div>
+            <button onclick="alert('삭제 버튼 클릭됨')">삭제</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
